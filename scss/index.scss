@@ -1,2 +1,84 @@
 @import 'custom';
 @import '~bootstrap/scss/bootstrap';
+@import '~bootswatch/dist/slate/_bootswatch';
+html,body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height: auto;
+}
+.navbar{
+ width:100%;
+ height:auto;
+ opacity: 0.9;
+   
+}
+.hero-div img{
+	position: center;
+	width:100%;
+	height:100%;
+}
+
+#infoP{
+	font-size: 30px;
+	text-align: center;
+	font-style: bold; 
+}
+#sec1{
+	background-color:#004d4d;
+}
+
+#jmbtr-img{
+	position: center;
+	width:100%;
+	height:auto;
+	border:1px solid $black;  
+
+}
+
+.embed-responsive{
+  margin-top:25px;
+  
+
+	
+}
+.card{
+	background:#91A8D0;
+    border:1px solid $black; 
+
+
+}
+#carouselExampleControls{
+	margin:auto;	
+	width:50%;
+	height:auto;
+}
+
+.form-section{
+	margin-top:1px; 
+	border:1px solid black; 
+}
+
+h3{
+	text-align: center;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-linkedin {
+  color: #1985bc;  
+}
+.fa-twitter-square {
+  color: #1da1f2;  
+}
+.fa-google-plus-square {
+  color: #db4437;  
+}
+.fa-instagram{
+  color: #bd081c; 
+}
+footer{
+	background:#e6dede;
+}
+
